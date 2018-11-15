@@ -2,7 +2,6 @@ baseurl: ""
 description: >-
   Официальный сайт регионального отделения
   Либертарианской партии России в Пермском крае.
-email: kotovalexarian@protonmail.com
 markdown: kramdown
 plugins:
   - jekyll-feed
