@@ -5,6 +5,7 @@ description: >-
 markdown: kramdown
 plugins:
   - jekyll-feed
+show_excerpts: true
 theme: minima
 title: Либертарианская партия России в Пермском крае
 url: "https://lpr-perm.com"
