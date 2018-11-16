@@ -15,3 +15,14 @@ date: 2018-11-12 17:36:00 +0500
 
 В отделении Александра держали 4 часа, после чего отпустили
 без составления протокола.
+
+По поводу самой акции написали различные издания, в том числе
+[Медуза](https://meduza.io/news/2018/11/12/v-tsentre-permi-k-stolbu-privyazali-chuchelo-s-litsom-putina-politsiya-nachala-proverku),
+[Радио Свобода](https://www.svoboda.org/a/29595906.html),
+[Сноб](https://snob.ru/news/168038),
+[Znak.com](https://www.znak.com/2018-11-12/voennye_prestupnik_pynya_v_v_v_permi_u_cuma_k_stolbu_privyazali_maneken_s_licom_putina),
+[TJournal](https://tjournal.ru/79785-v-centre-permi-k-stolbu-privyazali-chuchelo-s-putinym-mvd-nachalo-proverku),
+а так же местные пермские издания, такие как
+[Звезда](http://zvzda.ru/articles/bf2c63772159),
+[Pro Город Пермь](https://progorod59.ru/news/25408),
+[59.ru](https://59.ru/text/politics/65606061/).
