@@ -4,6 +4,9 @@ description: >-
   Либертарианской партии России в Пермском крае.
 jekyll_compose:
   auto_open: true
+  # Does not work
+  post_default_front_matter:
+    redirect_from: /p/XXXXXX.html
 markdown: kramdown
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
