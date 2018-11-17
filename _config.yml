@@ -16,7 +16,6 @@ minima:
   date_format: "%b %-d, %Y"
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
 show_excerpts: true
