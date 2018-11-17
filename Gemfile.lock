@@ -73,6 +73,7 @@ DEPENDENCIES
   jekyll-compose (~> 0.8)
   jekyll-feed (~> 0.6)
   jekyll-redirect-from (~> 0.14)
+  jekyll-seo-tag (~> 2.5)
   minima (~> 2.5)
 
 BUNDLED WITH

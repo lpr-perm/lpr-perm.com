@@ -23,4 +23,5 @@ group :jekyll_plugins do
   gem 'jekyll-compose', '~> 0.8'
   gem 'jekyll-feed', '~> 0.6'
   gem 'jekyll-redirect-from', '~> 0.14'
+  gem 'jekyll-seo-tag', '~> 2.5'
 end
