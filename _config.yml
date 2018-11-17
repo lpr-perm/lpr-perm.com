@@ -3,6 +3,7 @@ description: >-
   Официальный сайт регионального отделения
   Либертарианской партии России в Пермском крае.
 markdown: kramdown
+permalink: /:year/:month/:day/:title:output_ext
 plugins:
   - jekyll-feed
 show_excerpts: true
