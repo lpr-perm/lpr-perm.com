@@ -31,7 +31,7 @@ redirect_from: /p/d7a84g.html
 без составления протокола.
 
 Наше мнение
------------
+===========
 
 В полном соответствии с либертарианской идеологией, мы не считаем, что
 автора данной акции нужно задерживать и привлекать к какой-либо ответственности,
@@ -46,7 +46,7 @@ redirect_from: /p/d7a84g.html
 сил полиции, которое было использовано при реагировании на данный инцидент.
 
 Публикации в СМИ
-----------------
+================
 
 * [Медуза](https://meduza.io/news/2018/11/12/v-tsentre-permi-k-stolbu-privyazali-chuchelo-s-litsom-putina-politsiya-nachala-proverku)
 * [Радио Свобода](https://www.svoboda.org/a/29595906.html)
@@ -55,7 +55,7 @@ redirect_from: /p/d7a84g.html
 * [TJournal](https://tjournal.ru/79785-v-centre-permi-k-stolbu-privyazali-chuchelo-s-putinym-mvd-nachalo-proverku)
 
 Пермские СМИ
-============
+------------
 
 * [Звезда](http://zvzda.ru/articles/bf2c63772159)
 * [Pro Город Пермь](https://progorod59.ru/news/25408)
