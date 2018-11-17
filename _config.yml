@@ -6,6 +6,7 @@ markdown: kramdown
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 show_excerpts: true
 theme: minima
 title: Либертарианская партия России в Пермском крае
