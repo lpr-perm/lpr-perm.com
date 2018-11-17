@@ -2,6 +2,8 @@ baseurl: ""
 description: >-
   Официальный сайт регионального отделения
   Либертарианской партии России в Пермском крае.
+jekyll_compose:
+  auto_open: true
 markdown: kramdown
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
