@@ -6,7 +6,11 @@ jekyll_compose:
   auto_open: true
   # Does not work
   post_default_front_matter:
+    author: Александр Котов
+    lang: ru-RU
     redirect_from: /p/XXXXXX.html
+lang: ru-RU
+logo: /assets/logo.png
 markdown: kramdown
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
