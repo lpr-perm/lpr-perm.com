@@ -1,7 +1,5 @@
 baseurl: ""
-description: >-
-  Официальный сайт регионального отделения
-  Либертарианской партии России в Пермском крае.
+description: Либертарианская партия России в Пермском крае
 jekyll_compose:
   auto_open: true
   # Does not work
@@ -19,5 +17,5 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
 show_excerpts: true
-title: Либертарианская партия России в Пермском крае
+title: ЛПР Пермь
 url: "https://lpr-perm.com"
