@@ -15,6 +15,7 @@ minima:
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
   - autoprefixer-rails
+  - bootstrap
   - jekyll-assets
   - jekyll-redirect-from
   - jekyll-seo-tag
