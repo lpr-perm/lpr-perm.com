@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '~> 2.5'
 end
 
+gem 'bootstrap', '~> 4.1'
 gem 'font-awesome-sass', '~> 5.5'
