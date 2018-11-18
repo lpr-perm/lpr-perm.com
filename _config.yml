@@ -1,5 +1,9 @@
 baseurl: ""
 description: Либертарианская партия России в Пермском крае
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
 jekyll_compose:
   auto_open: true
   # Does not work
