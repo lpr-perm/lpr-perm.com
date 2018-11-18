@@ -6,13 +6,13 @@ jekyll_compose:
   post_default_front_matter:
     author: Александр Котов
     lang: ru-RU
-    redirect_from: /p/XXXXXX
+    redirect_from: /p/XXXXXX.html
 lang: ru-RU
 logo: /assets/logo.png
 markdown: kramdown
 minima:
   date_format: "%b %-d, %Y"
-permalink: /:year/:month/:day/:slug
+permalink: /:year/:month/:day/:slug:output_ext
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
