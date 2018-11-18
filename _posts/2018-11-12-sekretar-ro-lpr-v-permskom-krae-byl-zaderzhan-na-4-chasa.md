@@ -49,7 +49,7 @@ redirect_from: /p/d7a84g.html
 ================
 
 * [Медуза](https://meduza.io/news/2018/11/12/v-tsentre-permi-k-stolbu-privyazali-chuchelo-s-litsom-putina-politsiya-nachala-proverku)
-* [Радио Свобода](https://www.svoboda.org/a/29595906.html)
+* [Радио Свобода](https://www.svoboda.org/a/29595906.html), [ещё](https://www.svoboda.org/a/29605593.html)
 * [Сноб](https://snob.ru/news/168038)
 * [Znak.com](https://www.znak.com/2018-11-12/voennye_prestupnik_pynya_v_v_v_permi_u_cuma_k_stolbu_privyazali_maneken_s_licom_putina)
 * [TJournal](https://tjournal.ru/79785-v-centre-permi-k-stolbu-privyazali-chuchelo-s-putinym-mvd-nachalo-proverku)
