@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 3.8.4'
+
+# gem 'github-pages', group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem 'autoprefixer-rails'
-  gem 'bootstrap'
-  gem 'jekyll-assets'
-  gem 'jekyll-compose'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-seo-tag'
+  gem 'jekyll-compose', '~> 0.8'
+  gem 'jekyll-redirect-from', '~> 0.14'
+  gem 'jekyll-seo-tag', '~> 2.5'
 end
