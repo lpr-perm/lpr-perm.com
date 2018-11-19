@@ -28,6 +28,7 @@ plugins:
   - jekyll-assets
   - jekyll-minifier
   - jekyll-seo-tag
+  - jekyll-sitemap
 show_excerpts: true
 title: ЛПР Пермь
 url: https://lpr-perm.com
