@@ -20,7 +20,6 @@ exclude:
   - package.json
   - package-lock.json
   - scripts
-google_analytics: UA-129460195-1
 lang: ru-RU
 markdown: kramdown
 minima:
@@ -33,4 +32,3 @@ plugins:
 show_excerpts: true
 title: Либертарианская партия России в Пермском крае
 url: https://lpr-perm.com
-yandex_metrica: 51214175
