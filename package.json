@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lpr-perm/lpr-perm.com/issues"
   },
-  "homepage": "https://github.com/lpr-perm/lpr-perm.com"
+  "homepage": "https://github.com/lpr-perm/lpr-perm.com",
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "jquery": "^3.3.1"
+  }
 }
