@@ -10,7 +10,10 @@ collections:
   posts:
     permalink: /posts/:year/:month/:day/:slug:output_ext
 collections_dir: collections
-description: Либертарианская партия России в Пермском крае
+description: >-
+  Мы выступаем за свободный рынок и государственное невмешательство
+  в экономику, за принцип самопринадлежности и самоценности человеческой
+  личности.
 exclude:
   - Gemfile
   - Gemfile.lock
