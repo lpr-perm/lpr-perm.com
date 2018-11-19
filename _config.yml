@@ -15,7 +15,6 @@ jekyll_compose:
   # Does not work
   post_default_front_matter:
     author_username: kotovalexarian
-    lang: ru-RU
 lang: ru-RU
 logo: /assets/logo.png
 markdown: kramdown
