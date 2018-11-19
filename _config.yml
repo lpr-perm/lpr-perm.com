@@ -4,7 +4,7 @@ assets:
     - assets/img
     - assets/js
     - node_modules
-baseurl: ""
+baseurl: ''
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:slug:output_ext
@@ -23,10 +23,10 @@ lang: ru-RU
 logo: /assets/logo.png
 markdown: kramdown
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: '%b %-d, %Y'
 plugins:
   - jekyll-assets
   - jekyll-seo-tag
 show_excerpts: true
 title: ЛПР Пермь
-url: "https://lpr-perm.com"
+url: https://lpr-perm.com
