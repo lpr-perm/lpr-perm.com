@@ -57,8 +57,6 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
-    jekyll-compose (0.8.0)
-      jekyll (~> 3.0)
     jekyll-minifier (0.1.8)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -123,7 +121,6 @@ DEPENDENCIES
   font-awesome-sass (~> 5.5)
   jekyll (~> 3.8.4)
   jekyll-assets (~> 3.0)
-  jekyll-compose (~> 0.8)
   jekyll-minifier (~> 0.1)
   jekyll-seo-tag (~> 2.5)
 
