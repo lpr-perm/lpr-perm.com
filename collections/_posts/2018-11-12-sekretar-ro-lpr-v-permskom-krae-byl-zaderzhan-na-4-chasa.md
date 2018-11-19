@@ -15,9 +15,9 @@ shortlink: d7a84g
 и "ВОЕННЫЙ ПРЕСТУПНИК ПЫНЯ В.В."
 
 <picture>
-  <source media="(max-width: 320px)" srcset="{% asset voennyj_prestupnik_pynja-small.jpg  @path %}"/>
-  <source media="(max-width: 480px)" srcset="{% asset voennyj_prestupnik_pynja-medium.jpg @path %}"/>
-  <img class="img-fluid"                src="{% asset voennyj_prestupnik_pynja-large.jpg  @path %}" alt="Фото с акции"/>
+  <source media="(max-width: 320px)" srcset="{% asset  small/voennyj_prestupnik_pynja.jpg @path %}"/>
+  <source media="(max-width: 480px)" srcset="{% asset medium/voennyj_prestupnik_pynja.jpg @path %}"/>
+  <img class="img-fluid"                src="{% asset  large/voennyj_prestupnik_pynja.jpg @path %}" alt="Фото с акции"/>
 </picture>
 
 Примерно через 40 минут после начала акции, к манекену подъехал автомобиль
