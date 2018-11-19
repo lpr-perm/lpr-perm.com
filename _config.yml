@@ -5,6 +5,9 @@ assets:
     - assets/js
     - node_modules
 baseurl: ""
+collections:
+  posts:
+    permalink: /:year/:month/:day/:slug:output_ext
 collections_dir: collections
 description: Либертарианская партия России в Пермском крае
 exclude:
@@ -21,7 +24,6 @@ logo: /assets/logo.png
 markdown: kramdown
 minima:
   date_format: "%b %-d, %Y"
-permalink: /:year/:month/:day/:slug:output_ext
 plugins:
   - jekyll-assets
   - jekyll-seo-tag
