@@ -18,6 +18,7 @@ exclude:
   - package.json
   - package-lock.json
   - scripts
+google_analytics: UA-129460195-1
 jekyll_compose:
   auto_open: true
   # Does not work
