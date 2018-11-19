@@ -7,7 +7,7 @@ assets:
 baseurl: ""
 collections:
   posts:
-    permalink: /:year/:month/:day/:slug:output_ext
+    permalink: /posts/:year/:month/:day/:slug:output_ext
 collections_dir: collections
 description: Либертарианская партия России в Пермском крае
 exclude:
