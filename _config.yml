@@ -1,3 +1,9 @@
+assets:
+  sources:
+    - assets/css
+    - assets/img
+    - assets/js
+    - node_modules
 baseurl: ""
 description: Либертарианская партия России в Пермском крае
 exclude:

@@ -1,0 +1,19 @@
+{
+  "name": "lpr-perm",
+  "version": "0.0.0",
+  "description": "Libertarian Party of Russia, Perm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpr-perm/lpr-perm.com.git"
+  },
+  "author": "Alex Kotov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpr-perm/lpr-perm.com/issues"
+  },
+  "homepage": "https://github.com/lpr-perm/lpr-perm.com"
+}
