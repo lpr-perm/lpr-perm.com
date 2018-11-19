@@ -17,7 +17,18 @@ layout: default
             {{ page.author | escape }}
           </span>
         </span>
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
+    {%- if page.shortlink -%}
+      <div class="input-group input-group-sm">
+        <input type="text" class="form-control" readonly value="{{ site.url | escape }}/p/{{ page.shortlink | escape }}.html"/>
+        <div class="input-group-append">
+          <label type="button" class="btn btn-outline-secondary">
+            <i class="far fa-copy"></i>
+          </label>
+        </div>
+      </div>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
