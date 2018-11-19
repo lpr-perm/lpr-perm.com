@@ -31,6 +31,7 @@ minima:
   date_format: '%b %-d, %Y'
 plugins:
   - jekyll-assets
+  - jekyll-minifier
   - jekyll-seo-tag
 show_excerpts: true
 title: ЛПР Пермь
