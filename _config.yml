@@ -16,7 +16,6 @@ jekyll_compose:
   post_default_front_matter:
     author: Александр Котов
     lang: ru-RU
-    redirect_from: /p/XXXXXX.html
 lang: ru-RU
 logo: /assets/logo.png
 markdown: kramdown
@@ -25,7 +24,6 @@ minima:
 permalink: /:year/:month/:day/:slug:output_ext
 plugins:
   - jekyll-assets
-  - jekyll-redirect-from
   - jekyll-seo-tag
 show_excerpts: true
 title: ЛПР Пермь
