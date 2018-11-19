@@ -14,7 +14,7 @@ jekyll_compose:
   auto_open: true
   # Does not work
   post_default_front_matter:
-    author_username: kotovalexarian
+    author: Александр Котов
 lang: ru-RU
 logo: /assets/logo.png
 markdown: kramdown
