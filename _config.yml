@@ -5,6 +5,7 @@ assets:
     - assets/js
     - node_modules
 baseurl: ''
+brand: ЛПР Пермь
 collections:
   posts:
     permalink: /posts/:year/:month/:day/:slug:output_ext
