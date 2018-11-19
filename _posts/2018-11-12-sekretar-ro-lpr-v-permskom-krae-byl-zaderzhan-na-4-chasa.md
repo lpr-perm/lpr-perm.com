@@ -2,7 +2,7 @@
 layout: post
 title: Секретарь РО ЛПР в Пермском крае был задержан на 4 часа
 date: 2018-11-12 17:53 +0500
-author: kotovalexarian
+author_username: kotovalexarian
 lang: ru-RU
 ---
 Вчера, 11 ноября, в Перми был задержан Александр Котов, секретарь регионального
