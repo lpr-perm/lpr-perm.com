@@ -1,74 +1,76 @@
 ---
 layout: default
 ---
-<div class="jumbotron text-center">
-  <h1 class="display-4">
-    {{ site.title_extra.main | escape }}
-    <br/>
-    <small class="text-muted">
-      {{ site.title_extra.secondary | escape }}
-    </small>
-  </h1>
-  <p class="lead">{{ site.description | escape }}</p>
-  <a role="button" class="btn btn-primary btn-lg" href="https://libertarian-party.ru/membership_applications">
-    Вступить
-  </a>
-</div>
-
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  <div class="row">
-    <div class="col-sm">
-      <h2>Социальные сети</h2>
-
-      <ul>
-        <li><a href="https://t.me/lpr_perm">Публичный канал в Telegram</a></li>
-        <li><a href="https://t.me/lpr_perm_chat">Публичный чат в Telegram</a></li>
-        <li><a href="https://vk.com/lpr_perm">VK</a></li>
-      </ul>
-    </div>
-
-    <div class="col-sm">
-      <h2>Региональный комитет</h2>
-
-      <ul>
-        <li>Александр Котов (<strong>секретарь</strong>; <a href="https://t.me/kotovalexarian">Telegram</a>, <a href="https://kotovalexarian.com">Персональный сайт</a>)</li>
-        <li>Иван Красноперов (<a href="https://t.me/ivan_krasnoperov">Telegram</a>)</li>
-      </ul>
-    </div>
-
-    <div class="col-sm">
-      <h2>Другие ссылки</h2>
-
-      <ul>
-        <li><a href="https://libertarian-party.ru/regionalnye-otdeleniya/permskiy-kray">Страница отделения на сайте Партии</a></li>
-        <li><a href="https://github.com/lpr-perm">GitHub</a></li>
-      </ul>
-    </div>
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1 class="display-4">
+      {{ site.title_extra.main | escape }}
+      <br/>
+      <small class="text-muted">
+        {{ site.title_extra.secondary | escape }}
+      </small>
+    </h1>
+    <p class="lead">{{ site.description | escape }}</p>
+    <a role="button" class="btn btn-primary btn-lg" href="https://libertarian-party.ru/membership_applications">
+      Вступить
+    </a>
   </div>
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">
-      Новости
-    </h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+  <div class="home">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    <div class="row">
+      <div class="col-sm">
+        <h2>Социальные сети</h2>
+
+        <ul>
+          <li><a href="https://t.me/lpr_perm">Публичный канал в Telegram</a></li>
+          <li><a href="https://t.me/lpr_perm_chat">Публичный чат в Telegram</a></li>
+          <li><a href="https://vk.com/lpr_perm">VK</a></li>
+        </ul>
+      </div>
+
+      <div class="col-sm">
+        <h2>Региональный комитет</h2>
+
+        <ul>
+          <li>Александр Котов (<strong>секретарь</strong>; <a href="https://t.me/kotovalexarian">Telegram</a>, <a href="https://kotovalexarian.com">Персональный сайт</a>)</li>
+          <li>Иван Красноперов (<a href="https://t.me/ivan_krasnoperov">Telegram</a>)</li>
+        </ul>
+      </div>
+
+      <div class="col-sm">
+        <h2>Другие ссылки</h2>
+
+        <ul>
+          <li><a href="https://libertarian-party.ru/regionalnye-otdeleniya/permskiy-kray">Страница отделения на сайте Партии</a></li>
+          <li><a href="https://github.com/lpr-perm">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    {%- if site.posts.size > 0 -%}
+      <h2 class="post-list-heading">
+        Новости
+      </h2>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
 </div>
