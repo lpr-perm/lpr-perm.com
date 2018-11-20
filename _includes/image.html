@@ -1,11 +1,13 @@
-<figure class="figure">
-  <picture>
-    <source media="(max-width: 320px)" srcset="{% asset  'small/{{ include.src }}' @path %}"/>
-    <source media="(max-width: 480px)" srcset="{% asset 'medium/{{ include.src }}' @path %}"/>
-    <img alt="{{ include.alt | escape }}" src="{% asset  'large/{{ include.src }}' @path %}"
-         class="figure-img img-fluid rounded" />
-  </picture>
-  <figcaption class="figure-caption">
-    {{ include.alt | escape }}
-  </figcaption>
-</figure>
+<div class="text-center">
+  <figure class="figure">
+    <picture>
+      <source media="(max-width: 320px)" srcset="{% asset  'small/{{ include.src }}' @path %}"/>
+      <source media="(max-width: 480px)" srcset="{% asset 'medium/{{ include.src }}' @path %}"/>
+      <img alt="{{ include.alt | escape }}" src="{% asset  'large/{{ include.src }}' @path %}"
+           class="figure-img img-fluid rounded" />
+    </picture>
+    <figcaption class="figure-caption text-left">
+      {{ include.alt | escape }}
+    </figcaption>
+  </figure>
+</div>
