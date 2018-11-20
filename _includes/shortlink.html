@@ -1,5 +1,5 @@
 {%- if page.shortlink -%}
-  {%- assign shortlink = site.url | append: '/p/' | append: page.shortlink | append: '.html' -%}
+  {%- assign shortlink = site.url | append: '/s/' | append: page.shortlink -%}
   <div class="input-group input-group-sm">
     <input type="text" class="form-control" readonly value="{{ shortlink }}"/>
     <div class="input-group-append">
