@@ -7,7 +7,11 @@ assets:
 baseurl: ''
 brand: ЛПР Пермь
 collections:
+  events:
+    output: true
+    permalink: /events/:year/:month/:day/:slug:output_ext
   posts:
+    output: true
     permalink: /posts/:year/:month/:day/:slug:output_ext
 collections_dir: collections
 description: >-
@@ -23,6 +27,7 @@ exclude:
   - package.json
   - package-lock.json
   - scripts
+future: true
 lang: ru-RU
 markdown: kramdown
 minima:

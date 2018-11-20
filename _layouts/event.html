@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="container">
+  <h1>{{ page.title | escape }}</h1>
+  <p>
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: '%b %-d, %Y %R' }}
+    </time>
+  </p>
+  {{ content }}
+</div>
