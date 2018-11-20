@@ -13,11 +13,7 @@ shortlink: d7a84g
 России Владимира Путина, одетого в тюремную робу, с надписями "ЛЖЕЦ"
 и "ВОЕННЫЙ ПРЕСТУПНИК ПЫНЯ В.В."
 
-<picture>
-  <source media="(max-width: 320px)" srcset="{% asset  small/voennyj_prestupnik_pynja.jpg @path %}"/>
-  <source media="(max-width: 480px)" srcset="{% asset medium/voennyj_prestupnik_pynja.jpg @path %}"/>
-  <img class="img-fluid"                src="{% asset  large/voennyj_prestupnik_pynja.jpg @path %}" alt="Фото с акции"/>
-</picture>
+{% include image.html src='voennyj_prestupnik_pynja.jpg' alt='Фото с акции' %}
 
 Примерно через 40 минут после начала акции, к манекену подъехал автомобиль
 с двумя сотрудниками Росгвардии. Ещё через 15 минут на месте уже было около
