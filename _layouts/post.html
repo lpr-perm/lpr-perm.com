@@ -6,9 +6,7 @@ layout: default
     <header>
       <h1>{{ page.title | escape }}</h1>
 
-      <p>
-        {% include datetime.html value=page.date %}
-      </p>
+      <p>{% include datetime.html value=page.date %}</p>
 
       {% include shortlink.html %}
     </header>

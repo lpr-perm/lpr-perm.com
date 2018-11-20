@@ -60,7 +60,7 @@ layout: default
           <ul>
             {% for post in site.posts %}
               <li>
-                <span>{{ post.date | date: '%b %-d, %Y %R' }}</span>
+                <span>{% include datetime.html value=post.date %}</span>
                 <h3>
                   <a href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
@@ -79,7 +79,7 @@ layout: default
           <ul>
             {% for event in site.events %}
               <li>
-                <span>{{ event.date | date: '%b %-d, %Y %R' }}</span>
+                <span>{% include datetime.html value=event.date %}</span>
                 <h3>
                   <a href="{{ event.url | relative_url }}">
                     {{ event.title | escape }}
