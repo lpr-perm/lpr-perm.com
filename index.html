@@ -53,26 +53,46 @@ layout: default
       </div>
     </div>
 
-    {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">
-        Новости
-      </h2>
-      <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+    <div class="row">
+      {% if site.posts.size > 0 %}
+        <div class="col-sm">
+          <h2>Новости</h2>
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span>{{ post.date | date: date_format }}</span>
+                <h3>
+                  <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                {% if site.show_excerpts %}
+                  {{ post.excerpt }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if site.events.size > 0 %}
+        <div class="col-sm">
+          <h2>События</h2>
+          <ul>
+            {% for event in site.events %}
+              <li>
+                <span>{{ event.date | date: '%b %-d, %Y %R' }}</span>
+                <h3>
+                  <a href="{{ event.url | relative_url }}">
+                    {{ event.title | escape }}
+                  </a>
+                </h3>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
   </div>
 </div>
