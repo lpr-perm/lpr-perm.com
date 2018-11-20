@@ -30,8 +30,6 @@ exclude:
 future: true
 lang: ru-RU
 markdown: kramdown
-minima:
-  date_format: '%b %-d, %Y'
 plugins:
   - jekyll-assets
   - jekyll-minifier
