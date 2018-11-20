@@ -1,0 +1,11 @@
+{%- if page.shortlink -%}
+  {%- assign shortlink = site.url | append: '/p/' | append: page.shortlink | append: '.html' -%}
+  <div class="input-group input-group-sm">
+    <input type="text" class="form-control" readonly value="{{ shortlink }}"/>
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" data-toggle="clipboard" data-clipboard-text="{{ shortlink }}">
+        <i class="far fa-copy"></i>
+      </label>
+    </div>
+  </div>
+{%- endif -%}
