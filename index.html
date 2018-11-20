@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div class="jumbotron text-center">
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
     <h1>
       {{ site.title_extra.main | escape }}
       <br/>
@@ -15,7 +15,9 @@ layout: default
       Вступить
     </a>
   </div>
+</div>
 
+<div class="container">
   <div class="home">
     {%- if page.title -%}
       <h1 class="page-heading">{{ page.title }}</h1>
