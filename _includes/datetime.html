@@ -1,3 +1,7 @@
+{% assign month_index = include.value | date: '%-m' | minus: 1 %}
+
 <time datetime="{{ include.value | date_to_xmlschema }}">
-  {{ include.value | date: '%b %-d, %Y %R' }}
+  {{ include.value | date: '%-d' }}
+  {{ site.months[month_index] }}
+  {{ include.value | date: '%Y, %R' }}
 </time>
