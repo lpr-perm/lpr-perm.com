@@ -49,6 +49,7 @@ plugins:
   - jekyll-minifier
   - jekyll-seo-tag
   - jekyll-sitemap
+strict_front_matter: true
 title: Либертарианская партия России в Пермском крае
 title_extra:
   main: Либертарианская партия России
