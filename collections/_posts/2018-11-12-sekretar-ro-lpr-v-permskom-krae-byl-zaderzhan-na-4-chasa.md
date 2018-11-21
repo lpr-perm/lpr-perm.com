@@ -57,6 +57,7 @@ shortlink: 377295
 ------------
 
 * [Звезда](http://zvzda.ru/articles/bf2c63772159),
-  [ещё](http://zvzda.ru/articles/9a32c9932d26)
+  [ещё](http://zvzda.ru/articles/9a32c9932d26),
+  [ещё](http://zvzda.ru/news/edaaec75c0ed)
 * [Pro Город Пермь](https://progorod59.ru/news/25408)
 * [59.ru](https://59.ru/text/politics/65606061/)
