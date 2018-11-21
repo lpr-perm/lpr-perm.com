@@ -1,8 +1,8 @@
 <div class="text-center">
   <figure class="figure">
     <picture>
-      <source media="(max-width: 320px)" srcset="{% asset  'small/{{ include.src }}' @path %}"/>
-      <source media="(max-width: 480px)" srcset="{% asset 'medium/{{ include.src }}' @path %}"/>
+      <source media="(max-width: 362px)" srcset="{% asset  'small/{{ include.src }}' @path %}"/>
+      <source media="(max-width: 522px)" srcset="{% asset 'medium/{{ include.src }}' @path %}"/>
       <img alt="{{ include.alt | escape }}" src="{% asset  'large/{{ include.src }}' @path %}"
            class="figure-img img-fluid rounded" />
     </picture>
