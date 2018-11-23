@@ -14,6 +14,15 @@ collections:
     output: true
     permalink: /posts/:year/:month/:day/:slug:output_ext
 collections_dir: collections
+defaults:
+  - scope:
+      type: 'events'
+    values:
+      layout: event
+  - scope:
+      type: 'posts'
+    values:
+      layout: post
 description: >-
   Мы выступаем за свободный рынок и государственное невмешательство
   в экономику, за принцип самопринадлежности и самоценности человеческой
