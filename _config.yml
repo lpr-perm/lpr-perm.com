@@ -38,6 +38,8 @@ exclude:
   - package-lock.json
   - scripts
 future: true
+include:
+  - _redirects
 lang: ru-RU
 markdown: kramdown
 months:
