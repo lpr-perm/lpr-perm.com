@@ -2,11 +2,10 @@
 layout: post
 ---
 <div class="row">
-  {% if page.text %}
-    <div class="col-lg">
-      {{ page.text | escape }}
-    </div>
-  {% endif %}
+  <div class="col-lg">
+    {{ page.text | escape }}
+    {{ content }}
+  </div>
   {% if page.google_maps_iframe_url %}
     <div class="col-lg">
       <div class="embed-responsive embed-responsive-16by9">
