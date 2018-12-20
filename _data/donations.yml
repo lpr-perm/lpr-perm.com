@@ -1,0 +1,12 @@
+- datetime: 2018-12-20 12:21:00 +0000
+  account: Litecoin (LTC)
+  amount: '0.69321962'
+  comment: null
+- datetime: 2018-12-20 12:42:00 +0000
+  account: Сбербанк (российский рубль)
+  amount: '5000.0'
+  comment: null
+- datetime: 2018-12-20 13:14:00 +0000
+  account: Сбербанк (российский рубль)
+  amount: '500.0'
+  comment: null

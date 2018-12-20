@@ -102,26 +102,15 @@ description: Сделать пожертвование региональном�
     </thead>
 
     <tbody>
-      <tr>
-        <td>20 Декабря 2018, 13:14</td>
-        <td>Сбербанк (российский рубль)</td>
-        <td>500.00</td>
-        <td></td>
-      </tr>
-
-      <tr>
-        <td>20 Декабря 2018, 12:42</td>
-        <td>Сбербанк (российский рубль)</td>
-        <td>5000.00</td>
-        <td></td>
-      </tr>
-
-      <tr>
-        <td>20 Декабря 2018, 12:21</td>
-        <td>Litecoin (LTC)</td>
-        <td>0.69321962</td>
-        <td></td>
-      </tr>
+      {% assign donations = site.data.donations | sort: 'datetime' | reverse %}
+      {% for donation in donations %}
+        <tr>
+          <td>{% include datetime.html value=donation.datetime %}</td>
+          <td>{{ donation.account }}</td>
+          <td>{{ donation.amount }}</td>
+          <td>{{ donation.comment }}</td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
