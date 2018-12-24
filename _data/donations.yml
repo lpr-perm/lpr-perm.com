@@ -14,3 +14,7 @@
   account: Bitcoin (BTC)
   amount: '0.01568737'
   comment: null
+- datetime: 2018-12-23 16:11:00 +0000
+  account: Сбербанк (российский рубль)
+  amount: '1200.0'
+  comment: null
