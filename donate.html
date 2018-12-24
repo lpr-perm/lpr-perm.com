@@ -96,7 +96,7 @@ description: Сделать пожертвование региональном�
         <th scope="col">
           Сумма
         </th>
-        <th scope="col">
+        <th scope="col" class="d-none d-md-table-cell">
           Комментарий
         </th>
       </tr>
@@ -109,7 +109,9 @@ description: Сделать пожертвование региональном�
           <td>{% include datetime.html value=donation.datetime %}</td>
           <td>{{ donation.account }}</td>
           <td>{{ donation.amount }}</td>
-          <td>{{ donation.comment }}</td>
+          <td class="d-none d-md-table-cell">
+            {{ donation.comment }}
+          </td>
         </tr>
       {% endfor %}
     </tbody>
