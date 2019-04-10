@@ -22,3 +22,7 @@
   account: Сбербанк (российский рубль)
   amount: '500.0'
   comment: null
+- datetime: 2019-04-10 18:17:36 +0000
+  account: Сбербанк (российский рубль)
+  amount: '100.0'
+  comment: null
