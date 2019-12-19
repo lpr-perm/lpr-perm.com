@@ -11,3 +11,4 @@ end
 
 gem 'bootstrap', '~> 4.1'
 gem 'font-awesome-sass', '~> 5.5'
+gem 'sprockets', '~> 3.7'
