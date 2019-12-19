@@ -1,4 +1,5 @@
 assets:
+  compression: false
   sources:
     - assets/css
     - assets/img
