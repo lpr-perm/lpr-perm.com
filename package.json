@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lpr-perm/lpr-perm.com",
   "dependencies": {
-    "jquery": "^3.4.0"
+    "jquery": "^3.5.0"
   }
 }
